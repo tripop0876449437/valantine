@@ -12,19 +12,21 @@
         <p>ถึงที่รักของฉัน,</p>
         <p>ขอบคุณที่อยู่เคียงข้างกันเสมอ รักนะ! 💖</p>
 
-        <div class="image-upload">
-            <input type="file" id="upload" accept="image/*,video/*">
-            <label for="upload">📸 อัปโหลดรูปหรือวิดีโอของเรา</label>
-            <div id="preview-container">
-                <img id="preview-image" src="" alt="รูปของเรา">
-                <video id="preview-video" controls></video>
-            </div>
+        <!-- วิดีโอแสดงผลอัตโนมัติ -->
+        <div class="video-container">
+            <video id="background-video" autoplay muted loop>
+                <source src="medie/line_oa_chat_250215_000657.mp4" type="video/mp4">
+                เบราว์เซอร์ของคุณไม่รองรับวิดีโอ
+            </video>
         </div>
 
-        <button id="surprise-btn">กดเพื่อดูข้อความพิเศษ</button>
-        <p id="secret-message" class="hidden">คุณคือคนที่พิเศษที่สุดในชีวิตของฉัน! 💕 <br> 23/11/2023</p>
+        <div class="special-message">
+            <p>💖 รักอ้วนมากนะคะ 💖</p>
+            <p>💌 23/11/2023 💌</p>
+        </div>
+        
     </div>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
